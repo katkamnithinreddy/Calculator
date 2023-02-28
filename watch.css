@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    
+    align-items: center;
+    z-index: -1;
+}
+img{
+    opacity:0.5;
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+.container{
+    top:30%;
+    left:15%;
+    position:absolute;
+    width:70vw;
+    text-align: center;
+    line-height: 70px;
+    z-index: 1;
+}
+.btn{
+    padding:15px;
+    margin:5px;
+    width:100px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:monospace;
+}
+h2{
+    font-size: 50px;
+    color:rgb(243, 243, 244)
+}
+.btns{
+    position: relative;
+
+    
+}
+.btn:hover{
+    background-color: rgb(240, 255, 127);
+    transition: 1s;
+    color:rgb(10, 242, 164);
+    box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.para{
+    font-size: 50px;
+    color:rgb(3, 0, 0)
+}
